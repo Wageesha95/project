@@ -8,8 +8,8 @@ const User = mongoose.model('User');
 var transporter = email.createTransport({
     service: 'gmail',
     auth: {
-      user: 'charindukavishan@gmail.com',
-      pass: 'asformyol0757073683'
+      user: 'parkheresl@gmail.com',
+      pass: 'Parkherechuru'
     }
   });
 module.exports.register = (req, res, next) => {
